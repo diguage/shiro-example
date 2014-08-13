@@ -17,7 +17,7 @@
     </appender>
 
     <!-- project default level -->
-    <logger name="com.diguage.learning.springmvc.introduction" level="DEBUG"/>
+    <logger name="com.diguage.learning.shiro" level="DEBUG"/>
 
 
     <root level="WARN">

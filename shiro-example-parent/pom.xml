@@ -17,12 +17,10 @@
         <logbakc.version>1.1.2</logbakc.version>
         <junit.version>4.11</junit.version>
 
-
         <!--解决File encoding has not been set, using platform encoding 的问题-->
         <!--https://stackoverflow.com/questions/3017695/how-to-configure-encoding-in-maven-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 
         <!--Plugin的属性定义-->
         <jdk.version>1.6</jdk.version>
@@ -46,6 +44,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector.version}</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -70,11 +69,13 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logbakc.version}</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>${logbakc.version}</version>
+            <scope>runtime</scope>
         </dependency>
         <!-- Slf4j End -->
 
