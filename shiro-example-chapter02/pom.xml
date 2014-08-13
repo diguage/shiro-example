@@ -6,7 +6,7 @@
         <groupId>com.diguage.learning.shiro</groupId>
         <artifactId>shiro-example-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../shiro-example-parent/pom.xml</relativePath>
     </parent>
 
     <artifactId>shiro-example-chapter02</artifactId>
